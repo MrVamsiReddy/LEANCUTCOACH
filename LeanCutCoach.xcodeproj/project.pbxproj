@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11B22C33D44E55F00100001 /* LeanCutCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B22C33D44E55F00000001 /* LeanCutCoachApp.swift */; };
+		A11B22C33D44E55F00100002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B22C33D44E55F00000002 /* ContentView.swift */; };
+		A11B22C33D44E55F00100003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B22C33D44E55F00000003 /* Models.swift */; };
+		A11B22C33D44E55F00100004 /* PlanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B22C33D44E55F00000004 /* PlanStore.swift */; };
+		A11B22C33D44E55F00100005 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B22C33D44E55F00000005 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A11B22C33D44E55F00000001 /* LeanCutCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCutCoachApp.swift; sourceTree = "<group>"; };
+		A11B22C33D44E55F00000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A11B22C33D44E55F00000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A11B22C33D44E55F00000004 /* PlanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanStore.swift; sourceTree = "<group>"; };
+		A11B22C33D44E55F00000005 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A11B22C33D44E55F00000006 /* LeanCutCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCutCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11B22C33D44E55F00200001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11B22C33D44E55F00300001 = {
+			isa = PBXGroup;
+			children = (
+				A11B22C33D44E55F00300002 /* LeanCutCoach */,
+				A11B22C33D44E55F00300003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A11B22C33D44E55F00300002 /* LeanCutCoach */ = {
+			isa = PBXGroup;
+			children = (
+				A11B22C33D44E55F00000001 /* LeanCutCoachApp.swift */,
+				A11B22C33D44E55F00000002 /* ContentView.swift */,
+				A11B22C33D44E55F00000003 /* Models.swift */,
+				A11B22C33D44E55F00000004 /* PlanStore.swift */,
+				A11B22C33D44E55F00000005 /* Theme.swift */,
+			);
+			path = LeanCutCoach;
+			sourceTree = "<group>";
+		};
+		A11B22C33D44E55F00300003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11B22C33D44E55F00000006 /* LeanCutCoach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11B22C33D44E55F00400001 /* LeanCutCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11B22C33D44E55F00800002 /* Build configuration list for PBXNativeTarget "LeanCutCoach" */;
+			buildPhases = (
+				A11B22C33D44E55F00500001 /* Sources */,
+				A11B22C33D44E55F00200001 /* Frameworks */,
+				A11B22C33D44E55F00600001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCutCoach;
+			productName = LeanCutCoach;
+			productReference = A11B22C33D44E55F00000006 /* LeanCutCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11B22C33D44E55F00700001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A11B22C33D44E55F00400001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A11B22C33D44E55F00800001 /* Build configuration list for PBXProject "LeanCutCoach" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11B22C33D44E55F00300001;
+			productRefGroup = A11B22C33D44E55F00300003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11B22C33D44E55F00400001 /* LeanCutCoach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11B22C33D44E55F00600001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11B22C33D44E55F00500001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11B22C33D44E55F00100002 /* ContentView.swift in Sources */,
+				A11B22C33D44E55F00100001 /* LeanCutCoachApp.swift in Sources */,
+				A11B22C33D44E55F00100003 /* Models.swift in Sources */,
+				A11B22C33D44E55F00100004 /* PlanStore.swift in Sources */,
+				A11B22C33D44E55F00100005 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A11B22C33D44E55F00900001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A11B22C33D44E55F00900002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A11B22C33D44E55F00900003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "LeanCut Coach";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.LeanCutCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A11B22C33D44E55F00900004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "LeanCut Coach";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.LeanCutCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11B22C33D44E55F00800001 /* Build configuration list for PBXProject "LeanCutCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11B22C33D44E55F00900001 /* Debug */,
+				A11B22C33D44E55F00900002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11B22C33D44E55F00800002 /* Build configuration list for PBXNativeTarget "LeanCutCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11B22C33D44E55F00900003 /* Debug */,
+				A11B22C33D44E55F00900004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A11B22C33D44E55F00700001 /* Project object */;
+}
