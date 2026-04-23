@@ -1,0 +1,50 @@
+workflows:
+  ios-simulator-build:
+    name: iOS Simulator Build
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    environment:
+      xcode: latest
+      vars:
+        XCODE_PROJECT: "LeanCutCoach.xcodeproj"
+        XCODE_SCHEME: "LeanCutCoach"
+    scripts:
+      - name: Build app for iOS Simulator
+        script: |
+          xcodebuild \
+            -project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            clean build
+    artifacts:
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/Products/Debug-iphonesimulator/*.app
+
+  ios-device-ipa:
+    name: iOS Device IPA
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    environment:
+      xcode: latest
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.vamsi.LeanCutCoach
+      vars:
+        XCODE_PROJECT: "LeanCutCoach.xcodeproj"
+        XCODE_SCHEME: "LeanCutCoach"
+    scripts:
+      - name: Apply provisioning profiles to Xcode project
+        script: xcode-project use-profiles
+      - name: Build signed IPA
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
